@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
 
+import { HighlightDirective } from './highlight.directive';
+
 @Component({
     selector: 'app-directives',
-    template: '<h1>Demo</h1>'
+    templateUrl: 'app/app.component.html',
+    directives: [HighlightDirective]
 })
 export class AppComponent {
 
